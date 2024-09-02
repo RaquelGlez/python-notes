@@ -32,4 +32,44 @@ print(ultimo_curso)
 print(lista_cursos[100])
  """
 
-# Actualizar
+""" # Actualizar
+lista_cursos = ['Python', 'Django', 'Flask', 'Ruby', 'Java']
+
+lista_cursos[4] = 'Rust'
+
+print(lista_cursos) """
+
+
+# Sublistas
+# [start:end]
+# [start:end:skip]
+
+lista_cursos = ['Python', 'Django', 'Flask', 'Ruby', 'Java', 'Rust']
+
+sub_lista = lista_cursos[0:3]
+
+print(lista_cursos)
+"""print(sub_lista)
+
+sub_lista = lista_cursos[2:30]
+print(sub_lista) """
+
+""" sub_lista = lista_cursos[2:]
+print(sub_lista)
+
+sub_lista = lista_cursos[:4]
+print(sub_lista) """
+
+""" 
+sub_lista = lista_cursos[1:5:2]
+print(sub_lista) """
+
+""" sub_lista = lista_cursos[:]
+print(sub_lista) """
+
+""" sub_lista = lista_cursos[::2]
+print(sub_lista) """
+
+
+sub_lista = lista_cursos[::-1]
+print(sub_lista)
